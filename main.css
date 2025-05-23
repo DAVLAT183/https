@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+* {
+  margin: 0;
+  font-family: "Comic Neue";
+}
+
+.text-grey {
+  color: rgba(0, 30, 24, 0.6980392157);
+}
+
+.text-green {
+  color: #06B3A8;
+}
+
+.text-white {
+  color: white;
+}
+
+.fol {
+  background-color: #06B3A8;
+  padding: 10px;
+  border-radius: 1000px;
+  border: none;
+  color: white;
+}
+
+.fil {
+  background-color: white;
+  border: none;
+}
+
+.fle {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 16px;
+}
+
+.vuu {
+  padding: 5px;
+  display: inline;
+  color: #06B3A8;
+  background-color: rgba(6, 179, 168, 0.1019607843);
+  border: none;
+  border-radius: 1000px;
+}
+
+.fon {
+  font-weight: bold;
+  font-size: 52px;
+}
+
+.font {
+  font-size: 18px;
+}
+
+.wii {
+  font-size: 12px;
+}
+
+.fott {
+  background-color: rgba(6, 179, 168, 0.1019607843);
+  border: none;
+  border-radius: 1000px;
+  padding: 15px;
+  width: 370px;
+}
+
+.fir {
+  position: absolute;
+  right: 1005px;
+  top: 603px;
+}
+
+.full {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 125px;
+}
+
+.bg {
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(6, 179, 168, 0.1019607843);
+}
+
+.fil {
+  font-size: 14px;
+}
+
+.ho {
+  font-size: 32px;
+}
+
+.text {
+  text-align: center;
+}
+
+.tip {
+  background-color: rgba(6, 179, 168, 0.1019607843);
+  padding: 40px;
+}
+
+.woo {
+  padding: 60px;
+  background-color: #F8F9FA;
+}
+.woo .wi {
+  text-align: center;
+}
+
+.fl {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bg-w {
+  background-color: white;
+  padding: 20px;
+}
+
+.doll {
+  padding: 50px;
+  background-color: #06B3A8;
+  color: white;
+}
+
+.but {
+  background-color: #359EB4;
+  color: white;
+  border-end-end-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 10px;
+  border: none;
+}
+
+.wol {
+  padding: 10px;
+  border: none;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.none {
+  display: flex;
+}
+
+.lol {
+  background-color: #001E18;
+  color: white;
+  padding: 50px;
+}
+
+.foll {
+  display: flex;
+  justify-content: center;
+  gap: 210px;
+}
+
+.bop {
+  display: flex;
+  padding: 20px;
+}
+
+@media (max-width: 510px) {
+  body {
+    padding: 19px;
+    margin: auto;
+  }
+  .bil {
+    display: none;
+  }
+  .div {
+    flex-direction: column;
+    margin: auto;
+    gap: 20px;
+  }
+  .div span {
+    font-size: 32px;
+  }
+  .div p {
+    font-size: 12px;
+  }
+  .div .fott {
+    width: 200px;
+  }
+  .div .cill {
+    width: 100%;
+  }
+  .bg .coll {
+    width: 50%;
+  }
+  .ho {
+    font-size: 30px;
+  }
+  p {
+    font-size: px;
+  }
+  .fle {
+    flex-direction: column;
+  }
+  .cill {
+    width: 100%;
+  }
+  .full {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .fon {
+    font-size: 27px;
+  }
+  .woo {
+    flex-direction: column;
+  }
+  .woo .fl {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .type {
+    font-size: 27px;
+  }
+  .bop {
+    gap: 70px;
+  }
+  .foll {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+}/*# sourceMappingURL=main.css.map */
